@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 leptos = {version = "0.5.2", features = ["csr", "nightly"]}
-leptos_router = {version = "0.5.2", features = ["csr", "nightly"]}
+
 trunk = "0.17.5"
