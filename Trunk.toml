@@ -1,0 +1,16 @@
+[[hooks]]
+stage = "pre_build"
+command = "sh"
+command_arguments = ["-c", "npx tailwindcss -i assets/tailwind.css -o public/output.css && npm run build"]
+[serve]
+# The address to serve on.
+address = "127.0.0.1"
+# The port to serve on.
+port = 3000
+# Open a browser tab once the initial build is complete.
+open = false
+# Disable auto-reload of the web app.
+no_autoreload = false
+[watch]
+# Paths to ignore.
+ignore = ["./public"]
