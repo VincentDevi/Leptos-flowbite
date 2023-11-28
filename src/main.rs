@@ -6,8 +6,14 @@ fn main() {
     mount_to_body(|| {
         view! {
           <>
-          <Drawer/>
-          <Modal/>
+          <div class="w-screen">
+              <NavBar/>
+            <main class="flex flex-col items-center gap-8">
+              <Drawer/>
+              <Modal/>
+            </main>
+          </div>
+            <Footer/>
           </>
         }
     })
