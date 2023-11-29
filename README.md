@@ -11,7 +11,7 @@
 
 2) Install the nightly feature of Rust
 
-```rustup toolcahin install nightly```
+```rustup toolchain install nightly```
 
 3) Cd to this project
 
